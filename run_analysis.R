@@ -30,8 +30,8 @@ all_data=cbind(subject,Y,X)
 #------------------------- 02 Subset  ------------------------------------------
 #-------------------------------------------------------------------------------
 cat('Subset..\n')
-mean_indexes=which(regexpr('mean\\(\\)',colnames(dat))>0)
-std_indexes=which(regexpr('std\\(\\)',colnames(dat))>0)
+mean_indexes=which(regexpr('mean\\(\\)',colnames(all_data))>0)
+std_indexes=which(regexpr('std\\(\\)',colnames(all_data))>0)
 
 data=all_data[,c(1,2,sort(c(mean_indexes,std_indexes)))]
 colnames(data_subset)
