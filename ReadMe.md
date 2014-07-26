@@ -8,7 +8,7 @@ This is the project for the course "Getting and Cleaning Data".
 
 - **'README.txt'**
 
-- **'cookbook.txt'**. Describes the variables, the data, and any transformations or work
+- **'Codebook.txt'**. Describes the variables, the data, and any transformations or work
 
 - **'run_analysis.R'**. Actual code to generate the output data "new_data.txt"
 
