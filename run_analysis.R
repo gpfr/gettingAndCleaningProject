@@ -34,7 +34,7 @@ mean_indexes=which(regexpr('mean\\(\\)',colnames(all_data))>0)
 std_indexes=which(regexpr('std\\(\\)',colnames(all_data))>0)
 
 data=all_data[,c(1,2,sort(c(mean_indexes,std_indexes)))]
-colnames(data_subset)
+colnames(data)
 
 #------------------------- 02 new data set ------------------------------------------
 #------------------------------------------------------------------------------------
