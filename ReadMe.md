@@ -6,9 +6,9 @@ This is the project for the course "Getting and Cleaning Data".
 
 ## The dataset includes the following files:
 
-- **'README.txt'**
+- **'README.md'**
 
-- **'Codebook.txt'**. Describes the variables, the data, and any transformations or work
+- **'Codebook.md'**. Describes the variables, the data, and any transformations or work
 
 - **'run_analysis.R'**. Actual code to generate the output data "new_data.txt"
 
